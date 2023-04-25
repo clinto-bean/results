@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="left">
+          <div>Your Result</div>
+          <div class="circle">
+            <div class="white">76</div>of 100
+          </div>
+          <div class="white">Great</div>
+          <div>
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+      </div>
+
+      <div class="right">
+        <div class="summary">Summary</div>
+        <!-- Score Rows -->
+        <div class="row reaction">
+          <img
+            src="/assets/images/icon-reaction.svg"
+            alt="Red lightning bold icon symbolizing reaction score."
+          />
+          <div class="category">Reaction</div>
+          <div class="score">80 <span> / 100</span></div>
+        </div>
+
+        <div class="row memory">
+          <img
+            src="assets/images/icon-memory.svg"
+            alt="Yellow brain symbolizing memory score."
+          />
+          <div class="category">Memory</div>
+          <div class="score">61 <span> / 100</span></div>
+        </div>
+
+        <div class="row verbal">
+          <img
+            src="/assets/images/icon-verbal.svg"
+            alt="Green conversation bubble symbolizing verbal score."
+          />
+          <div class="category">Verbal</div>
+          <div class="score">92 <span> / 100</span></div>
+        </div>
+
+        <div class="row visual">
+          <img
+            src="/assets/images/icon-visual.svg"
+            alt="Blue eye symbolizing visual score."
+          />
+          <div class="category">Visual</div>
+          <div class="score">72 <span> / 100</span></div>
+        </div>
+        <!-- continue button -->
+        <button class="continue" type="button">Continue</button>
+      </div>
+    </div>
+    <!-- </div> -->
+  </body>
+  <!-- footer -->
+  <footer class="attribution">
+    <div>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Clinton Clark</a>.
+    </div>
+  </footer>
+</html>
